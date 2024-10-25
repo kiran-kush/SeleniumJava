@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Ex_12102024;
 
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.Test;

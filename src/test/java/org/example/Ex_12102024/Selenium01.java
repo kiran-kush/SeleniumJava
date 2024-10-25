@@ -1,8 +1,8 @@
-package org.example;
+package org.example.Ex_12102024;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Selenium02 {
+public class Selenium01 {
 
     // code written in java, ruby, pearl, python,
     // gets converted into http request via jsonwire protocol,
@@ -11,7 +11,7 @@ public class Selenium02 {
     // client server architecture
     public static void main(String[] args) {
         ChromeDriver driver= new ChromeDriver();
-        driver.navigate().to("https://app.vwo.com");
+        driver.get("https://app.vwo.com");
         driver.quit();
 
     }

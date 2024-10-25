@@ -1,6 +1,5 @@
-package org.example;
+package org.example.Ex_12102024;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.annotations.Test;

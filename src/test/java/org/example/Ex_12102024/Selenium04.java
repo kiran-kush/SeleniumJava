@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Ex_12102024;
 
 public class Selenium04 {
     public static void main(String[] args) {

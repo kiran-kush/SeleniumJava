@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Ex_12102024;
 
 public class Selenium05 {
     // If you are using selenium 3.14

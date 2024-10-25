@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Ex_12102024;
 
 public class Son implements Father{
     @Override

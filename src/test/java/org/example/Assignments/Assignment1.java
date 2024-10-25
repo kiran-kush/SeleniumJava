@@ -11,7 +11,7 @@ public class Assignment1 {
     public  void testKatalonDemo(){
 
         EdgeOptions edgeOptions= new EdgeOptions();
-        edgeOptions.addArguments("--maximized");
+        edgeOptions.addArguments("--start-maximized");
         edgeOptions.addArguments("--incognito");
         WebDriver driver= new EdgeDriver(edgeOptions);
         driver.get("https://katalon-demo-cura.herokuapp.com/");
