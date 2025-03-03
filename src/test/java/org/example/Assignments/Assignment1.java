@@ -19,9 +19,11 @@ public class Assignment1 {
         Assert.assertEquals(driver.getTitle(),"CURA Healthcare Service");
         String pageSource= driver.getPageSource();
         if(pageSource.contains("CURA Healthcare Service")){
-            System.out.println("title is:"+ pageSource);
-            Assert.assertEquals(pageSource,"CURA Healthcare Service");
-        }
+            System.out.println("Verified");
+            Assert.assertTrue(true);
+        }else Assert.assertTrue(false);
+        driver.quit();
     }
+
 
 }

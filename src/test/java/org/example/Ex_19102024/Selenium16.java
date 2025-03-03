@@ -41,7 +41,7 @@ public class Selenium16 {
         WebDriver driver2= new ChromeDriver();
         driver2= new EdgeDriver();
         // do you want to run the test cases on multile machine
-        RemoteWebDriver remoteWebDriver= new RemoteWebDriver();
+       // RemoteWebDriver remoteWebDriver= new RemoteWebDriver();
 
 
 
